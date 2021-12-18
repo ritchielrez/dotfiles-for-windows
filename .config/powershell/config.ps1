@@ -12,6 +12,15 @@ Set-PSReadLineOption -PredictionSource History
 # Aliases are quick way to run bigger commands
 Set-Alias ll ls
 
+Remove-Item 'Alias:\rm' -Force
+function rm {
+	Remove-Item -r -v $args
+}
+
+function touch {
+	echo "" > $args
+}
+
 function gs {
 	git status	
 }
@@ -58,4 +67,4 @@ function dotfiles {
 }
 
 # Configure my prompt
-oh-my-posh --init --shell pwsh --config ~/Documents\PowerShell\Modules\oh-my-posh/themes/pure.omp.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config ~/Documents\PowerShell\Modules\oh-my-posh/themes/zash.omp.json | Invoke-Expression
