@@ -2,7 +2,7 @@
 
 
 
-## My Linux Desktop
+## My Windows Desktop
 
 ![](./Desktop_Screenshot.png)
 
