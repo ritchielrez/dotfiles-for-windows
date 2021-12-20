@@ -1,5 +1,3 @@
-clear
-
 # Import all the plugins that I use for powershell
 Import-Module oh-my-posh
 Import-Module posh-git
@@ -67,4 +65,4 @@ function dotfiles {
 }
 
 # Configure my prompt
-oh-my-posh --init --shell pwsh --config ~/Documents\PowerShell\Modules\oh-my-posh/themes/zash.omp.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config ~/Documents\PowerShell\Modules\oh-my-posh/themes/zash1.omp.json | Invoke-Expression
