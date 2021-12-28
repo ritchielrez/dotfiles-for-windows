@@ -1,23 +1,31 @@
 # Import all the plugins that I use for powershell
 Import-Module oh-my-posh
-Import-Module posh-git
+# Import-Module posh-git
 Import-Module -Name PSReadLine
-Import-Module -Name Terminal-Icons
+# Import-Module -Name Terminal-Icons
 
 # Turn on history autocompletetion
 Set-PSReadLineOption -PredictionSource History
 
 # Aliases are quick way to run bigger commands
-Set-Alias ll ls
+Remove-Item 'Alias:\where' -Force
+
+Remove-Item 'Alias:\ls' -Force
+Set-Alias ls lsd
+function ll {
+    lsd -la $args       
+}
 
 Remove-Item 'Alias:\rm' -Force
-function rm {
-	Remove-Item -r -v $args
-}
+Set-Alias rm "C:\Program Files\Git\usr\bin\rm.exe"
 
-function touch {
-	echo "" > $args
-}
+Remove-Item 'Alias:\md' -Force
+Set-Alias md "C:\Program Files\Git\usr\bin\mkdir.exe"
+Set-Alias mkdir "C:\Program Files\Git\usr\bin\mkdir.exe"
+
+# function touch {
+# 	echo "" > $args
+# }
 
 function gs {
 	git status	
