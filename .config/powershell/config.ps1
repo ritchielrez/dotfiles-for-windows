@@ -81,6 +81,10 @@ function dotfiles {
 	git --git-dir=$HOME/.dotfiles --work-tree=$HOME $args
 }
 
+function dts {
+	git --git-dir=$HOME/.dotfiles --work-tree=$HOME status
+}
+
 function dta {
 	git --git-dir=$HOME/.dotfiles --work-tree=$HOME add $args
 }
