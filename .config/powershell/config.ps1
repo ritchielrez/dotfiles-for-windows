@@ -81,5 +81,24 @@ function dotfiles {
 	git --git-dir=$HOME/.dotfiles --work-tree=$HOME $args
 }
 
+function dta {
+	git --git-dir=$HOME/.dotfiles --work-tree=$HOME add $args
+}
+
+function dtc {
+	param (
+		$CommitMessage
+	)
+
+	git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -m $CommitMessage
+}
+
+function dtp {
+	param (
+		$Branch
+	)
+	git --git-dir=$HOME/.dotfiles --work-tree=$HOME push -u origin $Branch
+}
+
 # Configure my prompt
 oh-my-posh --init --shell pwsh --config ~/Documents\PowerShell\Modules\oh-my-posh/themes/zash1.omp.json | Invoke-Expression
