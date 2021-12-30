@@ -33,6 +33,15 @@ function gs {
 function ga {
 	git add .
 }
+
+Remove-Item 'Alias:\gc' -Force
+function gc {
+	param (
+		$CommitMessage
+	)
+
+    git commit -m $CommitMessage
+}
 function gac {
 
 	param (
