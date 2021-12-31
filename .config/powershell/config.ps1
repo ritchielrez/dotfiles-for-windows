@@ -31,7 +31,7 @@ function gs {
 	git status	
 }
 function ga {
-	git add .
+	git add $args
 }
 
 Remove-Item 'Alias:\gc' -Force
