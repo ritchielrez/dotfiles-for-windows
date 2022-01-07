@@ -1,10 +1,10 @@
 # ===== WINFETCH CONFIGURATION =====
 
-# $image = "~/Pictures/windows-11-icon-logo.png"
-$noimage = $false
+$image = "C:\Users\ritch\Pictures\Wallpapers\gwhrrgcjmpl71.jpg"
+# $noimage = $false
 
 # Set the version of Windows to derive the logo from.
-$logo = "Windows 10"
+# $logo = "Windows 10"
 
 # Make the logo blink
 # $blink = $true
@@ -23,11 +23,11 @@ $logo = "Windows 10"
 # Configure which disks are shown
 # $ShowDisks = @("C:", "D:")
 # Show all available disks
-# $ShowDisks = @("*")
+$ShowDisks = @("*")
 
 # Configure which package managers are shown
 # disabling unused ones will improve speed
-# $ShowPkgs = @("winget", "scoop", "choco")
+$ShowPkgs = @("winget", "scoop", "choco")
 
 # Use the following option to specify custom package managers.
 # Create a function with that name as suffix, and which returns
@@ -45,10 +45,10 @@ $logo = "Windows 10"
 # 'bar' is for bar only.
 # 'textbar' is for text + bar.
 # 'bartext' is for bar + text.
-# $cpustyle = 'bar'
-# $memorystyle = 'textbar'
-# $diskstyle = 'bartext'
-# $batterystyle = 'bartext'
+$cpustyle = 'bar'
+$memorystyle = 'textbar'
+$diskstyle = 'bartext'
+$batterystyle = 'bartext'
 
 
 # Remove the '#' from any of the lines in
@@ -58,24 +58,26 @@ $logo = "Windows 10"
     "title"
     "dashes"
     "os"
-    "computer"
-    "kernel"
-    "motherboard"
+    # "computer"
+    # "kernel"
+    # "motherboard"
     # "custom_time"  # use custom info line
     "uptime"
     # "ps_pkgs"  # takes some time
     "pkgs"
-    "pwsh"
-    "resolution"
+    # "pwsh"
+    # "resolution"
     "terminal"
-    # "theme"
-    "cpu"
-    "gpu"
+    "theme"
+    # "cpu"
+    # "gpu"
     # "cpu_usage"  # takes some time
+    "blank"
     "memory"
     "disk"
+    "blank"
     # "battery"
-    # "locale"
+    "locale"
     # "weather"
     # "local_ip"
     # "public_ip"
