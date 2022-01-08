@@ -27,7 +27,7 @@ $ShowDisks = @("*")
 
 # Configure which package managers are shown
 # disabling unused ones will improve speed
-$ShowPkgs = @("winget", "scoop", "choco")
+$ShowPkgs = @("scoop")
 
 # Use the following option to specify custom package managers.
 # Create a function with that name as suffix, and which returns
