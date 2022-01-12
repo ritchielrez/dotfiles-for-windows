@@ -75,15 +75,15 @@ function gacp {
 }
 
 function dotfiles {
-	git --git-dir=$HOME/.git --work-tree=$HOME $args
+	git --git-dir=$HOME/.dotfiles --work-tree=$HOME $args
 }
 
 function dts {
-	git --git-dir=$HOME/.git --work-tree=$HOME status $args
+	git --git-dir=$HOME/.dotfiles --work-tree=$HOME status $args
 }
 
 function dta {
-	git --git-dir=$HOME/.git --work-tree=$HOME add $args
+	git --git-dir=$HOME/.dotfiles --work-tree=$HOME add $args
 }
 
 function dtc {
@@ -91,14 +91,14 @@ function dtc {
 		$CommitMessage
 	)
 
-	git --git-dir=$HOME/.git --work-tree=$HOME commit -m $CommitMessage
+	git --git-dir=$HOME/.dotfiles --work-tree=$HOME commit -m $CommitMessage
 }
 
 function dtp {
 	param (
 		$Branch
 	)
-	git --git-dir=$HOME/.git --work-tree=$HOME push -u origin $Branch
+	git --git-dir=$HOME/.dotfiles --work-tree=$HOME push -u origin $Branch
 }
 
 # Configure my prompt
