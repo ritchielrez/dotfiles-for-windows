@@ -1,10 +1,10 @@
 # ===== WINFETCH CONFIGURATION =====
 
-$image = "C:\Users\ritch\Pictures\Wallpapers\gwhrrgcjmpl71.jpg"
+# $image = "C:\Users\ritch\Pictures\Wallpapers\gwhrrgcjmpl71.jpg"
 # $noimage = $false
 
 # Set the version of Windows to derive the logo from.
-# $logo = "Windows 10"
+$logo = "Windows 7"
 
 # Make the logo blink
 # $blink = $true
