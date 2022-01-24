@@ -49,7 +49,7 @@
           "style": "plain",
           "foreground": "#E36464",
           "properties": {
-            "template": "\u274c",
+            "template": "\u274c ",
             "postfix": ""
           }
         }
