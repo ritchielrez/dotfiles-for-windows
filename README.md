@@ -26,11 +26,11 @@ Dotfiles are the customization files that are used to personalize your Linux or 
 
 
 ## FAQ
-1. What is a fetch program?  
+**1. What is a fetch program?**  
 **Ans:** Fetch is a type of program that used to show system info in the terminal. 
 As shown in the screenshot. There I'm using neofetch for windows.
 
-2. Why use wezterm when there's Windows Terminal?  
+**2. Why use wezterm when there's Windows Terminal?**  
 **Ans:** Windows Terminal in my experience has been slower than Wezterm, specifically
 when I'm using neovim. Also Windows Terminal can't display some unicodes, because
 of some problems in the Nerd Fonts Patcher, thus Windows Terminal doesn't show some 
