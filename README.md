@@ -36,7 +36,7 @@ when I'm using neovim. Also Windows Terminal can't display some unicodes, becaus
 of some problems in the Nerd Fonts Patcher, thus Windows Terminal doesn't show some 
 gylphs and unicodes if I'm not using a proper mono font, like - Hack Nerd Font. But
 I prefer to use CaskaydiaCove Nerd Font(Cascadia Code + Nerd Fonts), Fira Code Nerd Font
-or JetBrainsMono Nerd Font, and unfortunately those doesn't goes well with Windows 
+or JetBrainsMono Nerd Font, and unfortunately those doesn't go well with Windows 
 Terminal. Thus I use Wezterm, which has better unicode support and it's faster for me.
 But your experience may differ.
 
