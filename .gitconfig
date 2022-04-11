@@ -1,0 +1,10 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !gh.exe auth git-credential
+[user]
+	email = ritchielrez@gmail.com
+	name = RitchielRez
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
