@@ -16,3 +16,6 @@ alias dtp='dotfiles push -u origin'
 alias gs='git status'
 alias ga='git add'
 alias gp='git push -u origin'
+
+# My prompt
+eval "$(starship init bash)"
