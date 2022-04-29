@@ -1,6 +1,10 @@
+# Default shell
+shell:
+  program: "cmd"
+
 # Window Customization
 window:
-#  opacity: 0.8
+# opacity: 0.8
   dimensions:
     columns: 100
     lines: 30
@@ -82,3 +86,6 @@ cursor:
     blinking: on
     blink-interval: 750
     unfocused_hollow: true
+
+import: 
+  - ~/AppData/Roaming/alacritty/catppuccin.yml
