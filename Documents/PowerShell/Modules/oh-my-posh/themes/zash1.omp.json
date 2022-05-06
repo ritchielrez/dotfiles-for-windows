@@ -7,14 +7,8 @@
         {
           "foreground": "#E36464",
           "style": "plain",
-          "template": "@{{ .UserName }} ",
+          "template": "@{{ .UserName }}",
           "type": "session"
-        },
-        {
-          "foreground": "#62ED8B",
-          "style": "plain",
-          "template": "->",
-          "type": "text"
         },
         {
           "foreground": "#56B6C2",
@@ -26,18 +20,25 @@
           "type": "path"
         },
         {
-          "foreground": "#D4AAFC",
+          "foreground": "#b8bb26",
           "properties": {
             "branch_icon": ""
           },
           "style": "plain",
-          "template": " <#DDB15F>git(</>{{ .HEAD }}<#DDB15F>)</>",
+          "template": " \ue725 {{ .HEAD }}",
           "type": "git"
         },
         {
-          "foreground": "#E36464",
-          "style": "plain",
-          "template": " \u274c",
+          "foreground": "#8ec07c",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#fb4934{{ end }}"
+          ],
+          "leading_diamond": " ",
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "diamond",
+          "template": "\uf0a9 ",
           "type": "exit"
         }
       ],
