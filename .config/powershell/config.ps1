@@ -1,5 +1,4 @@
 # Import all the plugins that I use for powershell
-Import-Module oh-my-posh
 # Import-Module posh-git
 Import-Module -Name PSReadLine
 # Import-Module -Name Terminal-Icons
