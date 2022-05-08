@@ -1,12 +1,21 @@
 # Import all the plugins that I use for powershell
-# Import-Module posh-git
 Import-Module -Name PSReadLine
-# Import-Module -Name Terminal-Icons
 
 # Turn on history autocompletetion
 Set-PSReadLineOption -PredictionSource History
 
-# Aliases are quick way to run bigger commands
+# Initilize zoxide
+Invoke-Expression (& {
+    $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
+    (zoxide init --hook $hook powershell | Out-String)
+})
+
+# Aliases are like abbreviations of bigger commands
+
+function zz {
+    z -
+}
+
 Remove-Item 'Alias:\where' -Force
 
 Remove-Item 'Alias:\ls' -Force
