@@ -18,5 +18,7 @@ alias ga='git add'
 alias gp='git push -u origin'
 
 # My prompt
-# eval "$(starship init bash)"
 eval "$(oh-my-posh.exe init bash --config ~/Documents/PowerShell/Modules/oh-my-posh/themes/zash1.omp.json)"
+
+# Enable zoxide (alternative to cd and autojump) support
+eval "$(zoxide init bash)"
