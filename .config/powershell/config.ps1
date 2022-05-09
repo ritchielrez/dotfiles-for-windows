@@ -4,7 +4,7 @@ Import-Module -Name PSReadLine
 # Turn on history autocompletetion
 Set-PSReadLineOption -PredictionSource History
 
-# Initilize zoxide
+# Enable zoxide (alternative to cd and autojump) support
 Invoke-Expression (& {
     $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
     (zoxide init --hook $hook powershell | Out-String)
