@@ -110,4 +110,4 @@ function dtp {
 }
 
 # Configure my prompt
-oh-my-posh --init --shell pwsh --config C:\\Users\\ritux\\AppData\\Local\\Programs\\oh-my-posh\\themes\\powerline.omp.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config C:\\Users\\strange.ritchiel\\AppData\\Local\\Programs\\oh-my-posh\\themes\\powerline.omp.json | Invoke-Expression
