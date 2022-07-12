@@ -17,9 +17,9 @@ return {
 		"vim.exe",
 		"bash.exe",
 	},
-	font = wezterm.font("CaskaydiaCove Nerd Font"),
+	font = wezterm.font("SpaceMono NF"),
 	font_size = 13,
-	window_background_opacity = 0.95,
-	color_scheme = "nord",
+	-- window_background_opacity = 0.95,
+	color_scheme = "TokyoDark",
 	enable_tab_bar = false,
 }
