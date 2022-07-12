@@ -1,0 +1,12 @@
+# TokyoDark
+[colors]
+foreground = "#A0A8CD"
+background = "#11121D"
+cursor_bg = "#A0A8CD"
+cursor_border = "#A0A8CD"
+cursor_fg = "#11121D"
+selection_bg = "#A0A8CD"
+selection_fg = "#262B3D"
+
+ansi = [ "#11121D", "#EE6D85", "#95C561", "#D7A65F", "#7AA2F7", "#A485DD", "#38A89D", "#4A5057", ]
+brights = [ "#4A5057", "#EE6D85", "#73DACA", "#D7A65F", "#354A77", "#EE6D85", "#38A89D", "#A0A8CD", ]
