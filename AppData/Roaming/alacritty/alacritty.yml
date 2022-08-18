@@ -89,6 +89,3 @@ cursor:
 
 import: 
   - ~/AppData/Roaming/alacritty/catppuccin.yml
-
-key_bindings:
-  - { key: N, mods: Control, action: SpawnNewInstance }
