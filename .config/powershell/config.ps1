@@ -19,10 +19,10 @@ function zz {
 Remove-Item 'Alias:\where' -Force
 
 Remove-Item 'Alias:\ls' -Force
-Set-Alias ls lsd
-function ll {
-    lsd -la $args       
-}
+# Set-Alias ls lsd
+# function ll {
+#    lsd -la $args       
+# }
 
 Remove-Item 'Alias:\rm' -Force
 
@@ -110,4 +110,4 @@ function dtp {
 }
 
 # Configure my prompt
-oh-my-posh --init --shell pwsh --config C:\\Users\\strange.ritchiel\\AppData\\Local\\Programs\\oh-my-posh\\themes\\powerline.omp.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config C:\\Users\\strange.ritchiel\\AppData\\Local\\Programs\\oh-my-posh\\themes\\config.omp.json | Invoke-Expression
