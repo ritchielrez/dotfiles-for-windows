@@ -16,10 +16,11 @@ return {
 		"nvim.exe",
 		"vim.exe",
 		"bash.exe",
+        "nu.exe",
 	},
 	font = wezterm.font("CaskaydiaCove NF"),
 	font_size = 14,
 	-- window_background_opacity = 0.95,
-	color_scheme = "Catppuccin",
+	color_scheme = "Gruvbox Material Dark",
 	enable_tab_bar = false,
 }
