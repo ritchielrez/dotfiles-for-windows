@@ -8,3 +8,5 @@
 	defaultBranch = main
 [core]
 	editor = nvim
+[gui]
+	recentrepo = W:/learning-go
