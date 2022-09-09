@@ -19,8 +19,8 @@ return {
         "nu.exe",
 	},
 	font = wezterm.font("CaskaydiaCove NF"),
-	font_size = 14,
+	font_size = 13,
 	-- window_background_opacity = 0.95,
-	color_scheme = "Gruvbox Material Dark",
+	color_scheme = "GruvChad",
 	enable_tab_bar = false,
 }
