@@ -18,9 +18,9 @@ return {
 		"bash.exe",
         "nu.exe",
 	},
-	font = wezterm.font("CaskaydiaCove NF"),
+	font = wezterm.font("JetBrainsMono NF"),
 	font_size = 13,
 	-- window_background_opacity = 0.95,
-	color_scheme = "GruvChad",
+	color_scheme = "Gruvbox Material Dark",
 	enable_tab_bar = false,
 }
