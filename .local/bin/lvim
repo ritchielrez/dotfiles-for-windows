@@ -10,4 +10,4 @@ declare -r LUNARVIM_CONFIG_DIR="${LUNARVIM_CONFIG_DIR:-"$XDG_CONFIG_HOME/lvim"}"
 declare -r LUNARVIM_CACHE_DIR="${LUNARVIM_CACHE_DIR:-"$XDG_CACHE_HOME/lvim"}"
 declare -r LUNARVIM_BASE_DIR="${LUNARVIM_BASE_DIR:-"$LUNARVIM_RUNTIME_DIR/lvim"}"
 
-nvim -u "$LUNARVIM_RUNTIME_DIR/lvim/init.lua" $args
+nvim -u "$LUNARVIM_RUNTIME_DIR/lvim/init.lua" $@
