@@ -108,6 +108,3 @@ function dtp {
 	)
 	git --git-dir=$HOME/.git --work-tree=$HOME push -u origin $Branch
 }
-
-# Configure my prompt
-oh-my-posh --init --shell pwsh --config C:\\Users\\strange.ritchiel\\AppData\\Local\\Programs\\oh-my-posh\\themes\\config.omp.json | Invoke-Expression
