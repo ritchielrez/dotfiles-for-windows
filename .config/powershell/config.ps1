@@ -108,3 +108,5 @@ function dtp {
 	)
 	git --git-dir=$HOME/.git --work-tree=$HOME push -u origin $Branch
 }
+
+Set-Alias lvim C:\Users\strange.ritchiel\AppData\Roaming\lunarvim\bin\lvim.ps1
