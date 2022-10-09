@@ -88,4 +88,4 @@ cursor:
     unfocused_hollow: true
 
 import: 
-  - ~/AppData/Roaming/alacritty/gruvbox_material.yaml
+  - ~/AppData/Roaming/alacritty/gruvbox_material.yml
