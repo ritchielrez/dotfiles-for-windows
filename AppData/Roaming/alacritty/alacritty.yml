@@ -20,13 +20,13 @@ scrolling:
 # Font Customization
 font:
   normal:
-    family: CaskaydiaCove NF
-    style: Book
+    family: Comic Mono
+    style: Normal
   bold:
-    family: CaskaydiaCove Nerd Font
+    family: Comic Mono
     style: Bold
   italic:
-    family: CaskaydiaCove Nerd Font
+    family: Comic Mono
     style: Italic
   size: 15
   offset:
