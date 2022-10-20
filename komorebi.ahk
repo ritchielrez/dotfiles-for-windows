@@ -118,6 +118,20 @@ return
 MoveToWorkspace(4)
 return
 
+; Resize windows
+!u::
+Resize("left" ,"increase")
+return
+!i::
+Resize("left" ,"decrease")
+return
+!o::
+Resize("down" ,"increase")
+return
+!p::
+Resize("down" ,"decrease")
+return
+
 ; There are many more commands that you can bind to whatever keys combinations you want!
 ;
 ; Have a look at the komorebic.lib.ahk file to see which arguments are required by different commands
