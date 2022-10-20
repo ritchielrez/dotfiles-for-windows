@@ -15,13 +15,17 @@ CrossMonitorMoveBehaviour("insert")
 WatchConfiguration("enable")
 
 ; Ensure there is 1 workspace created on monitor 0
-EnsureWorkspaces(0, 1)
+EnsureWorkspaces(0, 5)
 
 ; Configure the invisible border dimensions
 InvisibleBorders(7, 0, 14, 7)
 
 ; Configure the 1st workspace
-WorkspaceName(0, 0, "I")
+WorkspaceName(0, 0, "1")
+WorkspaceName(0, 1, "2")
+WorkspaceName(0, 2, "3")
+WorkspaceName(0, 3, "4")
+WorkspaceName(0, 4, "5")
 
 ; Configuure windows focus follows mouse
 ToggleFocusFollowsMouse("komorebi")
@@ -65,6 +69,53 @@ return
 
 !+l::
 Move("right")
+return
+
+; Workspace switching
+!1::
+Send !
+FocusWorkspace(0)
+return
+
+!2::
+Send !
+FocusWorkspace(1)
+return
+
+!3::
+Send !
+FocusWorkspace(2)
+return
+
+!4::
+Send !
+FocusWorkspace(3)
+return
+
+!5::
+Send !
+FocusWorkspace(4)
+return
+
+; Move window to workspace
+!+1::
+MoveToWorkspace(0)
+return
+
+!+2::
+MoveToWorkspace(1)
+return
+
+!+3::
+MoveToWorkspace(2)
+return
+
+!+4::
+MoveToWorkspace(3)
+return
+
+!+5::
+MoveToWorkspace(4)
 return
 
 ; There are many more commands that you can bind to whatever keys combinations you want!
