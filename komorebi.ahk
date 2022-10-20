@@ -23,6 +23,9 @@ InvisibleBorders(7, 0, 14, 7)
 ; Configure the 1st workspace
 WorkspaceName(0, 0, "I")
 
+; Configuure windows focus follows mouse
+ToggleFocusFollowsMouse("komorebi")
+
 ; Uncomment the next two lines if you want a visual border drawn around the focused window
 ; ActiveWindowBorderColour(66, 165, 245, "single") ; this is a nice blue colour
 ; ActiveWindowBorder("enable")
