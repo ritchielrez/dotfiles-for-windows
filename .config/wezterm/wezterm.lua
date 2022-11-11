@@ -22,6 +22,6 @@ return {
 	font = wezterm.font("Comic Mono"),
 	font_size = 14,
 	-- window_background_opacity = 0.95,
-	color_scheme = "everforest",
+	color_scheme = "Gruvbox Material Dark",
 	enable_tab_bar = false,
 }
