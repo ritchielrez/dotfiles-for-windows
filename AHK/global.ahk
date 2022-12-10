@@ -21,7 +21,7 @@ Process, Exist, Discord.exe
 
 if ErrorLevel = 0
 {
-    Run, "C:\Users\ritux\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk"
+    Run, "C:\Users\strange.ritchiel\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk"
 }
 else
 {
@@ -77,6 +77,6 @@ WinActivate, ahk_exe Bitwarden.exe
 Return
 
 #+r:: Reload
-#+e:: Run, "./edit.bat" ; Runs my edit batch script to open sublime text to edit this script
+#+e:: Run, "./edit.bat"
 
 !q:: !f4 ; When you press Alt+q, it sends to windows the Alt+F4 shortcut
