@@ -5,12 +5,12 @@
 #w:: 
 ; Checks if Edge already Running, if it's, focuses on the window. If it's already focused,
 ; press Ctrl+Tab in the Microsoft Edge, otherwise just launch the app
-IfWinNotExist, ahk_exe vivaldi.exe
+IfWinNotExist, ahk_exe msedge.exe
     Run, "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-if WinActive("ahk_exe vivaldi.exe")
+if WinActive("ahk_exe msedge.exe")
     Send ^{tab}
 else 
-    WinActivate, ahk_exe vivaldi.exe
+    WinActivate, ahk_exe msedge.exe
 Return
 
 #+d:: 
