@@ -1,1 +1,1 @@
-nvim C:\Users\ritux\dev\AHK\global.ahk
+nvim C:\Users\strange.ritchiel\ahk\global.ahk

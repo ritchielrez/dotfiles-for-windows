@@ -37,19 +37,19 @@ Return
 
 !d:: Run, "G:\googlesearchlnk"
 
-!s:: Run, "C:\Users\ritch\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify.lnk" 
+!s:: Run, "C:\Users\strange.ritchiel\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Spotify.lnk" 
 
 #Enter:: 
 ; Waits for the program to launch
-Sleep, 250
-IfWinNotExist, ahk_exe WindowsTerminal.exe
-    Run, wt
-GroupAdd, alacritties, ahk_class CASCADIA_HOSTING_WINDOW_CLASS
+; Sleep, 250
+IfWinNotExist, ahk_exe wezterm-gui.exe
+    Run, wezterm-gui
+GroupAdd, terminals, ahk_class org.wezfurlong.wezterm
 
-if WinActive("ahk_exe WindowsTerminal.exe")
-    GroupActivate, alacritties, r
+if WinActive("ahk_exe wezterm-gui.exe")
+    GroupActivate, terminals, r
 else 
-    WinActivate ahk_exe WindowsTerminal.exe
+    WinActivate ahk_exe wezterm-gui.exe
 
 Return
 
