@@ -1,0 +1,12 @@
+# Github Blue
+[colors]
+foreground = "#c9d1d9"
+background = "#0c162d"
+cursor_bg = "#c9d1d9"
+cursor_border = "#c9d1d9"
+cursor_fg = "#0c162d"
+selection_bg = "#3392ff"
+selection_fg = "#21262d"
+
+ansi = [ "#0c162d", "#ed4e50", "#30c154", "#0dbc79", "#58a6ff", "#d0439a", "#2187fd", "#3a4a68", ]
+brights = [ "#3a4a68", "#ed4e50", "#73DACA", "#0dbc79", "#354A77", "#ed4e50", "#2187fd", "#c9d1d9", ]

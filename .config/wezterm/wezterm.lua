@@ -20,8 +20,8 @@ return {
 	},
 	font = wezterm.font("JetBrainsMono NF"),
 	-- font = wezterm.font("Comic Mono"),
-	font_size = 14,
+	font_size = 13,
 	-- window_background_opacity = 0.95,
-	color_scheme = "everforest",
+	color_scheme = "GitHub Blue",
 	enable_tab_bar = false,
 }
