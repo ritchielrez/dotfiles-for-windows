@@ -18,10 +18,10 @@ return {
 		"bash.exe",
         "nu.exe",
 	},
-	font = wezterm.font("JetBrainsMono NF"),
+	font = wezterm.font("Cascadia Code"),
 	-- font = wezterm.font("Comic Mono"),
 	font_size = 13,
 	-- window_background_opacity = 0.95,
-	color_scheme = "GitHub Blue",
+	color_scheme = "everforest",
 	enable_tab_bar = false,
 }
