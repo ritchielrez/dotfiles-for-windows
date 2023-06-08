@@ -1,6 +1,7 @@
 PROMPT_COMMAND='history -a'
 
 # ls aliases
+alias ls="lsd"
 alias ll="ls -la"
 
 # dotfiles bare repo aliases
