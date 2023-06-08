@@ -26,3 +26,6 @@ eval "$(zoxide init bash)"
 
 # FZF gruvbox colorscheme
 export FZF_DEFAULT_OPTS="--color=fg:#ebdbb2,bg:-1,hl:#689d6a,fg+:#d5c4a1,bg+:#504945,hl+:#8ec07c,info:#fe8019,prompt:#fb4934,pointer:#8ec07c,marker:#b8bb26,spinner:#d3869b,header:#fabd2f"
+
+# Set the PATH variable for local bash scripts
+export PATH="$HOME/.local/bin/:$PATH"
