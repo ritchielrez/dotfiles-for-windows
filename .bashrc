@@ -1,23 +1,25 @@
-PROMPT_COMMAND='history -a'
+PROMPT_COMMAND="history -a"
 
 # ls aliases
 alias ls="lsd"
 alias ll="ls -la"
 
 # dotfiles bare repo aliases
-alias dotfiles="git --git-dir=$HOME/.git/ --work-tree=$HOME"
-alias dts='dotfiles status'
-alias dta='dotfiles add'
-alias dtc='dotfiles cz'
-alias dtp='dotfiles push -u origin'
+alias dotfiles="yadm"
+alias dts="dotfiles status"
+alias dta="dotfiles add"
+alias dtc="dotfiles cz"
+alias dtp="dotfiles push -u origin"
+
+alias dtnv="yadm enter nvim"
 
 # git aliases
-alias gs='git status'
-alias ga='git add'
-alias gp='git push -u origin'
+alias gs="git status"
+alias ga="git add"
+alias gp="git push -u origin"
 
 # lunarvim alias
-alias lvim='pwsh /c/Users/strange.ritchiel/AppData/Roaming/lunarvim/bin/lvim.ps1'
+alias lvim="pwsh /c/Users/strange.ritchiel/AppData/Roaming/lunarvim/bin/lvim.ps1"
 
 # My prompt
 # eval "$(oh-my-posh.exe init bash --config ~/Documents/PowerShell/Modules/oh-my-posh/themes/zash1.omp.json)"
