@@ -1,0 +1,68 @@
+# set ifs "\n"
+set filesep " "
+
+set drawbox
+
+set icons
+
+# cmd remove push $python<space>D:/lf_scripts/remove_files.py<space>%fx%<enter>
+
+# use a and A to create files and directories
+cmd createfile %sh -c 'touch $0'
+cmd createdir %sh -c 'mkdir $0'
+map a push :createfile<space>
+map A push :createdir<space>
+
+# open explorer in current directory
+map S push &start.<enter>
+map T push &wt<enter>
+
+# copy file path
+map Y %echo %fx% | clip
+
+# open file in nvim
+map V &nvim %f%
+
+# backup and restore
+# cmd backup push !python<space>D:/lf_scripts/backup_files.py<space>%fx%<enter>
+# cmd backup_restore push !python<space>D:/lf_scripts/debackup_files.py<space>%fx%<enter>
+
+# must have at least a file in it
+# cmd bookmark %sh -c 'python D:/lf_scripts/bookmark.py %f% $0'
+# cmd goto_bookmark push $python<space>D:/lf_scripts/goto_bookmark.py<space>%id%<enter>
+# map B push :bookmark<space>
+# map b push :goto_bookmark<enter>
+#
+# map F push :filter<enter>
+# map gF push :setfilter<enter>
+
+# archive management
+cmd zip %sh -c '7z a $0 %fx%'
+cmd extract_here %sh -c '7z e %f%'
+cmd extract_to %sh -c '7z e %f% -o$0'
+cmd extract_auto %sh -c '7z e %f% -o%f%_extracted'
+cmd extract_auto_and_remove %sh -c '7z e %f% -o%f%_extracted && rm %f%'
+
+map x push :extract_auto<enter>
+map X push :extract_auto_and_remove<enter>
+
+# drag and drop
+# cmd drag push &python<space>D:/lf_scripts/drag.py<space>multi<space>%fx%<enter>
+# cmd dragonce push &python<space>D:/lf_scripts/drag.py<space>once<space>%fx%<enter>
+# map D push :dragonce<enter>
+
+# use c-f to fuzzy search
+# cmd fzf_jump push $python<space>D:/lf_scripts/fzfpy.py<space>%id%<enter>
+# map <c-f> :fzf_jump
+
+# quick preview
+# map P $C:\Users\Lion\AppData\Local\Programs\QuickLook\QuickLook.exe %f%
+
+# custom file preview
+set previewer "preview.bat"
+
+# cmd send_to_mobile %sh -c 'scp -P 2222 hex@192.168.1.151: %fx%'
+# cmd send_to_mobile push $scp<space>-P<space>2222<space>%fx%<space>hex@192.168.1.151:<enter>
+# cmd send_to_tablet push $scp<space>-P<space>2222<space>%fx%<space>hex@192.168.1.150:<enter>
+# map st push :send_to_tablet<enter>
+# map sm push :send_to_mobile<enter>
