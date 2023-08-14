@@ -5,7 +5,11 @@ set drawbox
 
 set icons
 
-# cmd remove push $python<space>D:/lf_scripts/remove_files.py<space>%fx%<enter>
+# Enable this to show hidden files
+set hidden
+
+cmd remove push $python<space>C:/Users/ritux/.local/bin/remove_files.py<space>%fx%<enter>
+map D push :remove
 
 # use a and A to create files and directories
 cmd createfile %sh -c 'touch $0'
@@ -21,7 +25,10 @@ map T push &wt<enter>
 map Y %echo %fx% | clip
 
 # open file in nvim
-map V &nvim %f%
+map e $nvim.exe %f%
+
+# open a file or folder with the default application for the filetype
+map <enter> $explorer.exe %f%
 
 # backup and restore
 # cmd backup push !python<space>D:/lf_scripts/backup_files.py<space>%fx%<enter>
