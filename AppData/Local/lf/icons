@@ -326,11 +326,11 @@ Vagrantfile             
 *.pdf   
 
 # directories
-tw      
-st      
-ow      
-dt      
-di      
+tw      
+st      
+ow      
+dt      
+di      
 
 # generic files
 fi      
