@@ -1,6 +1,6 @@
 # Default shell
 shell:
-  program: "cmd"
+  program: "visualcpp.bat"
 
 # Window Customization
 window:
