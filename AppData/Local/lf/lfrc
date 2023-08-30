@@ -24,11 +24,14 @@ map T push &wt<enter>
 # copy file path
 map Y %echo %fx% | clip
 
+# open folder inside lf
+map <enter> open
+
 # open file in nvim
 map e $nvim.exe %f%
 
 # open a file or folder with the default application for the filetype
-map <enter> $explorer.exe %f%
+map o $explorer.exe %f%
 
 # backup and restore
 # cmd backup push !python<space>D:/lf_scripts/backup_files.py<space>%fx%<enter>
