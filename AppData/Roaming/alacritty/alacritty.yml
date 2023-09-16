@@ -11,7 +11,7 @@ window:
   padding:
     x: 5
     y: 5
-  decorations: full #Still won't show in a window manger, but will in a desktop environment
+  decorations: none #Still won't show in a window manger, but will in a desktop environment
 scrolling:
   history: 10000
   multiplier: 3
