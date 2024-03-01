@@ -13,6 +13,9 @@ alias dtp="dotfiles push -u origin"
 
 alias dtnv="yadm enter nvim"
 
+alias dlg="yadm enter lazygit"
+alias lg="lazygit"
+
 # git aliases
 alias gs="git status"
 alias ga="git add"
