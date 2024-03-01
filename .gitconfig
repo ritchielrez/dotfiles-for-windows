@@ -7,6 +7,4 @@
 [init]
 	defaultBranch = main
 [core]
-	editor = nvim
-[gui]
-	recentrepo = W:/learning-go
+	editor = vim
