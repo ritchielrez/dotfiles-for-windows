@@ -24,4 +24,5 @@ return {
 	color_scheme = "Gruvbox Material Dark",
 	color_scheme = "Catppuccin",
 	enable_tab_bar = false,
+	window_decorations = "RESIZE",
 }
