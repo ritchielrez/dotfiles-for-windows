@@ -21,7 +21,6 @@ return {
 	font = wezterm.font("CaskaydiaCove NF"),
 	font_size = 12,
 	-- window_background_opacity = 0.95,
-	color_scheme = "Gruvbox Material Dark",
 	color_scheme = "Catppuccin",
 	enable_tab_bar = false,
 	window_decorations = "RESIZE",
