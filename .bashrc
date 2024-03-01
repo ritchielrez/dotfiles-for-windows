@@ -32,3 +32,28 @@ export FZF_DEFAULT_OPTS="--color=fg:#ebdbb2,bg:-1,hl:#689d6a,fg+:#d5c4a1,bg+:#50
 
 # Set the PATH variable for local bash scripts
 export PATH="$HOME/.local/bin/:$PATH"
+
+# fnm
+export PATH="/c/Users/ritux/AppData/Local/fnm_multishells/3784_1709199347247":$PATH
+export FNM_MULTISHELL_PATH="C:\\Users\\ritux\\AppData\\Local\\fnm_multishells\\3784_1709199347247"
+export FNM_LOGLEVEL="info"
+export FNM_VERSION_FILE_STRATEGY="local"
+export FNM_DIR="C:\\Users\\ritux\\AppData\\Roaming\\fnm"
+export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
+export FNM_COREPACK_ENABLED="false"
+export FNM_RESOLVE_ENGINES="false"
+export FNM_ARCH="x64"
+__fnm_use_if_file_found() {
+    if [[ -f .node-version || -f .nvmrc ]]; then
+    fnm use --silent-if-unchanged
+fi
+
+}
+
+__fnmcd() {
+    \cd "$@" || return $?
+    __fnm_use_if_file_found
+}
+
+alias cd=__fnmcd
+__fnm_use_if_file_found
