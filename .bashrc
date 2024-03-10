@@ -13,7 +13,7 @@ alias dtp="dotfiles push -u origin"
 
 alias dtnv="yadm enter nvim"
 
-alias dlg="yadm enter lazygit"
+alias dlg="yadm enter lazyyadm"
 alias lg="lazygit"
 
 # git aliases
