@@ -65,7 +65,7 @@ theme = "catppuccin-mocha"
 [window]
 # width = 600
 # height = 400
-mode = "Maximized"
+mode = "Windowed"
 
 # Background configuration
 #
