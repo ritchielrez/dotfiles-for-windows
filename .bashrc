@@ -31,7 +31,13 @@ alias lvim="pwsh /c/Users/strange.ritchiel/AppData/Roaming/lunarvim/bin/lvim.ps1
 eval "$(zoxide init bash)"
 
 # FZF gruvbox colorscheme
-export FZF_DEFAULT_OPTS="--color=fg:#ebdbb2,bg:-1,hl:#689d6a,fg+:#d5c4a1,bg+:#504945,hl+:#8ec07c,info:#fe8019,prompt:#fb4934,pointer:#8ec07c,marker:#b8bb26,spinner:#d3869b,header:#fabd2f"
+# export FZF_DEFAULT_OPTS="--color=fg:#ebdbb2,bg:-1,hl:#689d6a,fg+:#d5c4a1,bg+:#504945,hl+:#8ec07c,info:#fe8019,prompt:#fb4934,pointer:#8ec07c,marker:#b8bb26,spinner:#d3869b,header:#fabd2f"
+
+# FZF catppuccin colorscheme
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#181825,bg:#181825,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 
 # Set the PATH variable for local bash scripts
 export PATH="$HOME/.local/bin/:$PATH"
