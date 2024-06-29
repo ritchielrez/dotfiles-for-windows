@@ -20,6 +20,7 @@ alias lg="lazygit"
 alias gs="git status"
 alias ga="git add"
 alias gp="git push -u origin"
+alias gl="git log --oneline"
 
 # lunarvim alias
 alias lvim="pwsh /c/Users/strange.ritchiel/AppData/Roaming/lunarvim/bin/lvim.ps1"
