@@ -1,7 +1,7 @@
 PROMPT_COMMAND="history -a"
 
 # ls aliases
-alias ls="lsd"
+alias ls="eza"
 alias ll="ls -la"
 
 # dotfiles bare repo aliases
@@ -36,7 +36,7 @@ eval "$(zoxide init bash)"
 
 # FZF catppuccin colorscheme
 export FZF_DEFAULT_OPTS=" \
---color=bg+:#181825,bg:#181825,spinner:#f5e0dc,hl:#f38ba8 \
+--color=bg+:#1e1e2e,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
 
