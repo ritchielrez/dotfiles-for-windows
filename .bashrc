@@ -42,6 +42,7 @@ export FZF_DEFAULT_OPTS=" \
 
 # Set the PATH variable for local bash scripts
 export PATH="$HOME/.local/bin/:$PATH"
+export PATH="$HOME/.scripts/:$PATH"
 
 # fnm
 export PATH="/c/Users/ritux/AppData/Local/fnm_multishells/3784_1709199347247":$PATH
