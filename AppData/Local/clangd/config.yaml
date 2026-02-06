@@ -1,2 +1,2 @@
 CompileFlags:
-    Add: [--target=x86_64-w64-windows-gnu]
+  Add: [--target=x86_64-w64-windows-msvc]
