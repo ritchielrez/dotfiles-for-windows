@@ -1,5 +1,4 @@
 [credential "https://github.com"]
-	helper = 
 	helper = !gh.exe auth git-credential
 [user]
 	email = ritchielrez@gmail.com
@@ -8,3 +7,13 @@
 	defaultBranch = main
 [core]
 	editor = vim
+	autocrlf = false
+[gui]
+	recentrepo = C:/Users/ritchiel/repos/2do-app
+[safe]
+	directory = D:/dev/terra
+	directory = D:/dev/libraries
+	directory = D:/dev/thor
+	directory = D:/dev/hydrogen-cpp
+	directory = E:/dev/thor
+	directory = E:/dev/libraries
